@@ -5,9 +5,6 @@ import './App.css';
 
 function App() {
   const [counter, setCounter] = useState(0)
-  useEffect(()=> {
-    setCounter(500)
-  }, [])
   return (
     <div className="App">
       <header className="App-header">
