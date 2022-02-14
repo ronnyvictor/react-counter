@@ -15,11 +15,29 @@
 }
 
 button {
-  background-color: darksalmon;
-  border: 2px solid white;
-  border-radius: 8px;
-  padding: 8px 24px;
-  color:whitesmoke;
-  font-size: 32px;
+  background-color: #18B385;
+  padding:20px 70px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  margin: 1rem;
+  font-size: 1em;
+  font-weight: bold;
   cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0px 1px 14px 0px rgb(0 0 0 / 21%);
+}
+
+button:hover{
+  background-color: #65ECBA;
+}
+
+button:active{
+  box-shadow: inset 0px 1px 14px 0px rgba(0, 0, 0, 0.076);
+}
+
+.button{
+  padding: 30px 35px;
+  font-size: 1,2em;
+  border-radius: 100%;
 }
