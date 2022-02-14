@@ -14,13 +14,15 @@ function Coffees() {
             <h2>Coffee Recipes</h2>
             <button onClick={() => setTemp('hot')}>Hot</button>
             <button onClick={() => setTemp('iced')}>Iced</button>
-            {!coffeeList
-                ? <h3>Loading...</h3>
-                : <ol>
-                    {coffeeList.map(coffee => {
-                        return <li key={coffee.id}>{coffee.title}</li>
-                    })}
-                </ol>}
+            <div className=''>
+                {!coffeeList
+                    ? <h3>Loading...</h3>
+                    : <ol>
+                        {coffeeList.map(coffee => {
+                            return <li key={coffee.id}>{coffee.title}</li>
+                        })}
+                    </ol>}
+            </div>
         </div>
     )
 }
